@@ -10,7 +10,7 @@
       </b-form-select>
     </div>
     <div class="col-md-3">
-      <b-button variant="primary" class="w-100" v-on:click="()=>handleAddToDo()">Добавить задачу</b-button>
+      <b-button variant="primary" class="w-100" v-on:click="handleAddToDo()">Добавить задачу</b-button>
     </div>
   </b-form>
 </template>

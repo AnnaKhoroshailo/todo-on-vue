@@ -24,7 +24,7 @@
     <div class="row">
       <div class="col-md-4 mb-2 pos-rel" v-for="card in cards" :key="card.id">
         <b-card v-bind:title="card.date">
-          <b-button class="pos-abs" variant="danger" v-on:click="() => handleDeleteCard(card.id)">x</b-button>
+          <b-button class="pos-abs" variant="danger" v-on:click="handleDeleteCard(card.id)">x</b-button>
           <b-card-text
             class="d-flex align-items-center justify-content-between"
             v-for="todo in todos.filter(todo => todo.card === card.date)"
@@ -35,7 +35,7 @@
               todo.title
               }}
             </router-link>
-            <b-button variant="danger" v-on:click="() => handleDeleteTodo(todo.id)">x</b-button>
+            <b-button variant="danger" v-on:click="handleDeleteTodo(todo.id)">x</b-button>
           </b-card-text>
         </b-card>
       </div>

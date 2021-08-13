@@ -4,7 +4,7 @@
       <b-form-input id="todo" v-model="cardDate" placeholder="Введите дату/название карточки"></b-form-input>
     </div>
     <div class="col-md-4">
-      <b-button variant="primary" class="w-100" v-on:click="()=>handleAddCard()">Добавить карточку</b-button>
+      <b-button variant="primary" class="w-100" v-on:click="handleAddCard()">Добавить карточку</b-button>
     </div>
   </b-form>
 </template>
