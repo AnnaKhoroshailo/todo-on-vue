@@ -1,0 +1,72 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "delectus aut autem",
+      "date": "11.08"
+    },
+    {
+      "id": 2,
+      "title": "quis ut nam facilis et officia qui",
+      "date": "12.08"
+    },
+    {
+      "id": 3,
+      "title": "fugiat veniam minus",
+      "date": "12.08"
+    },
+    {
+      "id": 4,
+      "title": "et porro tempora",
+      "date": "13.08"
+    },
+    {
+      "id": 5,
+      "title": "laboriosam mollitia et enim quasi adipisci quia provident illum",
+      "date": "На следующую неделю"
+    },
+    {
+      "id": 6,
+      "title": "qui ullam ratione quibusdam voluptatem quia omnis",
+      "date": "13.08"
+    },
+    {
+      "id": 7,
+      "title": "illo expedita consequatur quia in",
+      "date": "На следующую неделю"
+    },
+    {
+      "id": 8,
+      "title": "quo adipisci enim quam ut ab",
+      "date": "На следующую неделю"
+    },
+    {
+      "id": 9,
+      "title": "molestiae perspiciatis ipsa",
+      "date": "11.08"
+    },
+    {
+      "id": 10,
+      "title": "illo est ratione doloremque quia maiores aut",
+      "date": "12.08"
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "date": "11.08"
+    },
+    {
+      "id": 2,
+      "date": "12.08"
+    },
+    {
+      "id": 3,
+      "date": "13.08"
+    },
+    {
+      "id": 4,
+      "date": "На следующую неделю"
+    }
+  ]
+}
